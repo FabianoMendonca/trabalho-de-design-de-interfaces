@@ -1,0 +1,13 @@
+@import "../css/header.css";
+@import "../css/menu.css";
+@import "../css/style.css";
+@import "../css/footer.css";
+
+.mainContainer{
+    min-height: 65vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    padding: 5vw;
+}

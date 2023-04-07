@@ -1,0 +1,15 @@
+.headerContainer{
+  height: clamp(100px ,10vw,200px);
+}
+.mainLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B836B ;
+    width: auto;
+    height: 100%;
+}
+.logoPNG{
+  height: 100%;
+  width: auto;
+}

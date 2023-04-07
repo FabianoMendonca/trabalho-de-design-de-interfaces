@@ -1,0 +1,12 @@
+.footerContainer{
+    align-self: flex-end;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 80vh;
+    background: #4b836be1;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 4px rgba(9, 5, 5, 0.71);
+    padding: 10px;
+    text-align: center;
+}

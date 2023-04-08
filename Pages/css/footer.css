@@ -15,7 +15,6 @@ footer {
   }
   
   .contact {
-    flex-basis: 50%;
     margin-bottom: 30px;
   }
   
@@ -36,7 +35,7 @@ footer {
     align-items: center;
   }
   
-  .contact li i {
+  .contact li img {
     margin-right: 10px;
   }
   

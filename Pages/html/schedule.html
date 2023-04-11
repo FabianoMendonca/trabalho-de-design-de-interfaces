@@ -25,7 +25,70 @@
       <a href="../html/aboutUs.html">Sobre nós</a>
     </nav>
     <main class="mainContainer">
-        <!-- formulario de agendar -->
+        <form action="" class="formContainer">
+          <fieldset>
+            <legend>Dados do contato</legend><br>
+            <ul>
+              <li>
+              <label for="nomeId">Nome:</label>
+              <input type="text" id="nomeId" placeholder="Nome Completo"></input>
+              </li>
+              <li>
+                <label for="emailId">Email: </label>
+                <input id="emailId" type="email" placeholder="E-mail"><br>
+              </li>
+              <li>
+                <label for="cidadeId">Cidade: </label>
+                <input id="cidadeId" type="text" placeholder="Cidade">
+              </li>
+              <li>
+                <label for="ufId">Estado : </label>
+                <select name="ufId" id="estado">
+                  <option>Selecione uma opção</option>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+              </select>
+              </li>
+              <li>
+                <label for="cpfId">Digite seu cpf:</label>
+                <input type="text" id="cpfId" name="cpf" title="Preencha o cpf xxx.xxx.xxx-xx" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"  ><br>      
+              </li>
+              <li>
+                <label for="messageId">Digite sua mensagem:</label>
+              </li><li>
+                <textarea name="message" id="messageId" cols="30" rows="10" placeholder="Conte-nos um pouco sobre você..."></textarea>
+              </li>
+
+            </ul>
+          </fieldset>
+          <button type="submit" id="submitButtonId">Enviar</button>
+          
+        </form>
 
     </main>
     

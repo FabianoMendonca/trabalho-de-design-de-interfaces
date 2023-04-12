@@ -12,54 +12,74 @@
     max-height: auto;
     display: flex;
     flex-direction: column;
+    width: auto;
     margin-top: 1vh;
     justify-content: center;
     align-items: center ;
 }
 
 .formContainer{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgba(9, 5, 5, 0.71);
-    border-radius: 12px;
+    /* border: 2px solid rgba(9, 5, 5, 0.71); 
+    border-radius: 12px;  */
+    width: 100%;
     padding: 16px;
-    margin: 4px;
+    margin-left: clamp(20px, 10vw, 50px);
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .formContainer fieldset{
     border: none;
     padding: 4px;
     margin: 4px;
+    width: 80%;
+    
+}
+.formContainer fieldset legend {
+    font-size: clamp(18px, 2vw, 22px);
+    font-weight: 900;
 }
 .formContainer fieldset ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .formContainer fieldset ul li input{
     padding: 4px;
-    font-size: 16px;
+    width:clamp(240px, calc(100% - 105px), 500px) ;
+    /* font-size: 16px; */
 }
 .formContainer fieldset ul li {
-    font-weight: bold;
-    flex-basis: 45%;
+    font-weight: 900;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
     gap: 4px;
 }
+
 .formContainer fieldset ul li select {
  font-size: 16px;
 }
 .formContainer fieldset ul li select option{
     font-size: 16px;
 }
+#cpfId{
+    width: clamp(115px, 25%, 120px);
+}
 
 #messageId{
-    width: 525px;
-    min-width: 330px;
+    width: 100%;
+    min-width: 220px;
 }
 
 #submitButtonId{
-    width: 30%;
+    width: 20%;
     align-self: center;
     background: rgba(9, 5, 5, 0.71);
     color: #fff;

@@ -12,5 +12,47 @@
     max-height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 1vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.mainContainer h1{
+    font-size: larger;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 4vh;
+}
+.mainContainer h2 {
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1vh;
+}
+
+
+.mainContainer section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.mainContainer section figure{
+    display: flex;
+    flex-direction: column;
+    width:clamp(300px, 350px, 400px);
+    height: clamp(350px, 400px, 450px);
+    padding: 2vh;
+    justify-content: center;
+}
+.mainContainer section figure img{
+    width: 100%;
+    height: 40%;
+}
+.mainContainer section figure figcaption,
+.mainContainer section figure figcaption a{
+    font-size: clamp(12px,.6rem,16px);
+}
+.mainContainer section figure p{
+    font-size: clamp(12px,.9rem,16px);
 }

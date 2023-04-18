@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/schedule.css" />
-    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow"
+      rel="stylesheet"
+    />
     <title>Quem somos</title>
   </head>
   <body>
@@ -26,24 +29,25 @@
       <a href="../html/aboutUs.html">Sobre nós</a>
     </nav>
     <main class="mainContainer">
-        <form action="" class="formContainer">
-          <fieldset>
-            <legend>Dados do contato</legend><br>
-            <ul>
-              <li>
+      <form action="" class="formContainer">
+        <fieldset>
+          <legend>Dados do contato</legend>
+          <br />
+          <ul>
+            <li>
               <label for="nomeId">Nome:</label>
-              <input type="text" id="nomeId" placeholder="Nome Completo"></input>
-              </li>
-              <li>
-                <label for="emailId">Email: </label>
-                <input id="emailId" type="email" placeholder="E-mail"><br>
-              </li>
-              <li>
-                <label for="cidadeId">Cidade: </label>
-                <input id="cidadeId" type="text" placeholder="Cidade">
-              </li>
-              <li>
-                <div>
+              <input type="text" id="nomeId" placeholder="Nome Completo" />
+            </li>
+            <li>
+              <label for="emailId">Email: </label>
+              <input id="emailId" type="email" placeholder="E-mail" /><br />
+            </li>
+            <li>
+              <label for="cidadeId">Cidade: </label>
+              <input id="cidadeId" type="text" placeholder="Cidade" />
+            </li>
+            <li>
+              <div>
                 <label for="ufId">Estado : </label>
                 <select name="ufId" id="estado">
                   <option>Selecione uma opção</option>
@@ -74,45 +78,75 @@
                   <option value="SP">São Paulo</option>
                   <option value="SE">Sergipe</option>
                   <option value="TO">Tocantins</option>
-              </select>
+                </select>
               </div>
               <div>
-                  
                 <label for="cpfId">Digite seu cpf:</label>
-                <input type="text" id="cpfId" name="cpf" title="Preencha o cpf xxx.xxx.xxx-xx" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"  ><br>      
-              
-                </div>
-              </li>
-              <li>
-                <label for="messageId">Digite sua mensagem:</label>
-              </li><li>
-                <textarea name="message" id="messageId" cols="30" rows="10" placeholder="Conte-nos um pouco sobre você..."></textarea>
-              </li>
-
-            </ul>
-          </fieldset>
-          <button type="submit" id="submitButtonId">Enviar</button>
-          
-        </form>
-
+                <input
+                  type="text"
+                  id="cpfId"
+                  name="cpf"
+                  title="Preencha o cpf xxx.xxx.xxx-xx"
+                  placeholder="xxx.xxx.xxx-xx"
+                  pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                /><br />
+              </div>
+            </li>
+            <li>
+              <label for="messageId">Digite sua mensagem:</label>
+            </li>
+            <li>
+              <textarea
+                name="message"
+                id="messageId"
+                cols="30"
+                rows="10"
+                placeholder="Conte-nos um pouco sobre você..."
+              ></textarea>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit" id="submitButtonId">Enviar</button>
+      </form>
     </main>
-    
+
     <footer>
       <div class="container">
         <div class="contact">
           <h3>Contato</h3>
           <ul>
-            <li><img src="../../assets/home.svg" alt="">  Endereço: Rua Fictícia, 123 - Centro, Cidade Fictícia</li>
-            <li><img src="../../assets/phone.svg" alt=""> Telefone: (00) 0000-0000</li>
-            <li><img src="../../assets/email.svg" alt="">  E-mail: contato@seudominio.com.br</li>
+            <li>
+              <img src="../../assets/home.svg" alt="" /> Endereço: Rua Fictícia,
+              123 - Centro, Cidade Fictícia
+            </li>
+            <li>
+              <img src="../../assets/phone.svg" alt="" /> Telefone: (00)
+              0000-0000
+            </li>
+            <li>
+              <img src="../../assets/email.svg" alt="" /> E-mail:
+              contato@seudominio.com.br
+            </li>
           </ul>
         </div>
         <div class="social">
           <h3>Redes Sociais</h3>
           <ul>
-            <li><a href="#"><img src="../../assets/facebook.svg" alt=""> Facebook</a></li>
-            <li><a href="#"><img src="../../assets/twitter.svg" alt=""> Twitter</a></li>
-            <li><a href="#"><img src="../../assets/instagram.svg" alt=""> Instagram</a></li>
+            <li>
+              <a href="#"
+                ><img src="../../assets/facebook.svg" alt="" /> Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../../assets/twitter.svg" alt="" /> Twitter</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../../assets/instagram.svg" alt="" /> Instagram</a
+              >
+            </li>
           </ul>
         </div>
       </div>

@@ -48,3 +48,7 @@ Será avaliada a responsividade (o site vai ser testado em diversos
 tamanhos, você pode testar isso alterando o tamanho da tela do
 navegador), visual e usabilidade do site (valem as dicas de um bom design
 de IHC) e correção do código.
+
+
+
+[GitHub Pages](https://fabianomendonca.github.io/trabalho-de-design-de-interfaces/Pages/html/home.html)

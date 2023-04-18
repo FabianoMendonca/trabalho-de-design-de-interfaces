@@ -11,3 +11,7 @@
     margin-top: 1vh;
     padding: 5vw;
 }
+
+.mainContainer section h1 {
+    font-size:22px ;
+}
